@@ -1,0 +1,15 @@
+grumphp:
+    tasks:
+        phpcsfixer: ~
+        phplint: ~
+        phpmd: ~
+        phpunit: ~
+        phpstan: ~
+    environment:
+        files:
+            - .env
+    fixer:
+        enabled: true
+        fix_by_default: true
+    ignore_unstaged_changes: true
+
